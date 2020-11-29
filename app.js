@@ -4,7 +4,7 @@ function Book(title,author,isbn) {
     this.author = author;
     this.isbn = isbn;
 }
-// UI COnstructor
+// UI Constructor
 function UI() {}
 
 UI.prototype.addBookToList = function(book){
